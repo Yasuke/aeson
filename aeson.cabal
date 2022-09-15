@@ -74,6 +74,9 @@ library
     Data.Aeson.Internal.Time
     Data.Aeson.Parser.Internal
 
+    Data.Aeson.Key
+    Data.Aeson.KeyMap
+
   -- Deprecated modules
   exposed-modules:
     Data.Aeson.Encode
