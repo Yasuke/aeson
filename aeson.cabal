@@ -103,9 +103,9 @@ library
     ghc-prim         >= 0.2     && < 0.8,
     template-haskell >= 2.9.0.0 && < 2.18,
     text             >= 1.2.3.0 && < 1.3,
-    time             >= 1.4     && < 1.12
-    indexed-traversable
-    semialign
+    time             >= 1.4     && < 1.12,
+    indexed-traversable,
+    semialign,
     witherable
 
   if impl(ghc >= 8.0)
